@@ -1,0 +1,25 @@
+width: 284px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+
+
+width: Fixed (279px)px;
+height: Hug (96px)px;
+top: 32px;
+left: 32px;
+gap: 6px;
+opacity: 0px;
+
+
+//styleName: Mobile/Btn_text;
+font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+Programming Across Borders: Ideas, Technologies, Innovations
