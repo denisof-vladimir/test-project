@@ -13,29 +13,39 @@ import 'swiper/css/bundle';
 //     nextSlideMessage: 'Next slide',
 //   },
 // });
+
+
+
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: false,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-   
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
-  });
+          // Optional parameters
+          direction: 'horizontal',
+          grabCursor:'true',
+          keyboard: {
+            enabled: true,
+            onlyInViewport: false,
+          },
+          mousewheel: {
+            invert: true,
+          },
+          // loop: false,
+        
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        
+          // And if we need scrollbar
+          // scrollbar: {
+          //   el: '.swiper-scrollbar',
+          // },
+        })
   
 
 //   const swiper = document.querySelector('.swiper').swiper;
-  console.log(swiper);
-// // Now you can use all slider methods like
+// Now you can use all slider methods like
 // swiper.slideNext();
